@@ -28,13 +28,12 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
-        "service_94y20xo",
-        "template_v10u2oh",
+        "service_b03fgmo",
+        "template_yjdxr1s",
         formRef.current,
-        "pX_2hasGmGcuvjXIW"
+        "9LWAWjIT1MgIhGaZQ"
       )
       .then(
         (result) => {
