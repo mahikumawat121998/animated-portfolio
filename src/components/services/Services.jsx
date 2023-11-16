@@ -45,12 +45,13 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
+            Business.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,12 +61,13 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Marketing & Consultancy</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            In a dynamic business landscape, strategic marketing is pivotal for
+            brand visibility and growth. Our consultancy services tailor
+            strategies to align with your unique business objectives and
+            challenges. Through comprehensive market analysis, we identify
+            opportunities that maximize your competitive advantage.
           </p>
           <button>Go</button>
         </motion.div>
@@ -73,12 +75,16 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Creating Website</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            We specialize in creating bespoke websites that seamlessly align
+            with your brand identity and business objectives. Our web
+            development process begins with a thorough understanding of your
+            unique requirements and target audience. User-centric design
+            principles guide our development, ensuring an intuitive and engaging
+            user experience. Responsive design is integral, guaranteeing that
+            your website functions flawlessly across all devices and screen
+            sizes.
           </p>
           <button>Go</button>
         </motion.div>
@@ -86,25 +92,16 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Database Management</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            Our database management services are designed to streamline your
+            data operations, ensuring efficiency and reliability. We begin by
+            conducting a comprehensive analysis of your data needs to create a
+            tailored database solution. Data security is our top priority, and
+            we implement robust measures to protect your sensitive information
+            against unauthorized access. Our expertise spans various database
+            management systems, allowing us to choose the optimal solution for
+            your specific requirements.
           </p>
           <button>Go</button>
         </motion.div>
